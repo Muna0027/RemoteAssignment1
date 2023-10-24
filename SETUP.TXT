@@ -1,0 +1,19 @@
+1. Clone the repository
+2. npm install in the root folder
+3. npm install in the stock-frontend folder
+
+Question 1: 
+run  npx nodemon REST_API_PART_ONE.js  and interact with the api via an apo application like postman
+
+Question 2: 
+run  npx nodemon GRAPHQL_API_PART_TWO.js in one terminal and then in another terminal navigate to stock-frontend/ and run npm start
+You should be able to see the UI showing the stock for apple stock (made up) and update it at localhost:4000/graphql
+
+
+Question 3: 
+run  npx nodemon GRAPHQL_API_PART_TWO.js in one terminal and then in another terminal navigate to stock-frontend/ and run npm start.
+Change the React component that is loaded in stock-frontend/src/index.js from <Two /> to <Three />, see screenshot 1 in root folder
+You should be able to see the UI showing the stock for apple stock (made up) and update it at localhost:4000/graphql.
+
+
+Question 4: See PART_FOUR.txt in root folder

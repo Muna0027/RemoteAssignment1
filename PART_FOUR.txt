@@ -1,0 +1,9 @@
+Send multiple requests over REST and GQL, as well as WEBSOCKETS -- done
+
+Analysis:
+
+Websockets are much faster to retrieve the data (No request time per refresh) and provide an easier time dealing with data in the UI. The efficiency of them is defeinitely
+the highest, although the setup requires much more time investment. Rest is by far the easiest to get working, and once you have your API running the application can retrieve stocks pretty 
+effectively. GraphQL seems to be the worst in terms of time investment to value. I don't really see a reason why anyone would wrap a REST service with GraphQL unless they were dealing with 
+huge amounts of data or you only wanted to fetch one property on a data structure. One you add websockets to GraphQL the value is a much better feeling using the website and seeing
+realtime data. 

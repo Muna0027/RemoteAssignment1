@@ -1,0 +1,24 @@
+{
+  "name": "muna_assignment",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.8.6",
+    "@apollo/server": "^4.9.4",
+    "@graphql-tools/schema": "^10.0.0",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.14.2",
+    "nodemon": "^3.0.1",
+    "ws": "^8.14.2"
+  }
+}
